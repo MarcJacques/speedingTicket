@@ -4,10 +4,11 @@ using namespace std;
 int main() 
 {
   int speed;
+  const int LIMIT = 100;
   cout << "Enter speed:" << endl;
   cin >> speed;
 
-  if (speed > 100) {
+  if (speed > LIMIT) {
     cout << "You must pay $1000 fine.\nYou must appear in court on Monday." << endl;
     
   } else {
